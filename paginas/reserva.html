@@ -4,32 +4,37 @@
     <meta charset="utf-8">
     <title>chefs | Reservas</title>
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/reserva.css">
   </head>
   <body>
     <header>
       <img src="../imagens/Logo.svg" alt="Logo">
     </header>
         <a href="#">
-          <img src="../imagens/icone_volta.svg" alt="Ícone de calendário">
+          <img src="../imagens/icone_volta.svg" alt="Ícone de volta" class="volta">
         </a>
         <main>
-          <h1>Reservas</h1>
+          <h1 class="reserva">Reservas</h1>
         </main>
         <h2>Faça sua reserva:</h2>
-        <h3>Sobre você:</h3>
-           <p>Seu nome completo:</p>
-           <input type="text" name="" placeholder="Digite">
-           <p>Quantidade de clientes:</p>
-           <input type="text" name="" placeholder="N° de clientes">
-           <p>Forma de contato:</p>
-           <input type="text" name="" placeholder="Tel:">
-        <h3>Detalhes da sua reserva:</h3>
-          <p>Escolha o dia da semana:</p>
-          <input type="text" name="" placeholder="Digite">
-          <p>Escolha o horários:</p>
-          <input type="text" name="" placeholder="Digite entre os horários aberto">
-          <p>Informe a forma de pagamento:</p>
-          <input type="text" name="" placeholder="Digite">
-          <p>Confirmar Reserva</p>
+        <form class="" action="index.html" method="post">
+          <h3 class="dados">Sobre você:</h3>
+             <label for="nome" class="infor">Seu nome completo:</label>
+             <input type="text" name="nome" placeholder="Digite">
+             <br>
+             <label for="qtd" class="infor">Quantidade de clientes:</label>
+             <input type="text" name="qtd" placeholder="N° de clientes">
+             <br>
+             <label for="contato" class="infor">Forma de contato:</label>
+             <input type="text" name="contato" placeholder="Tel:">
+          <h3 class="dados">Detalhes da sua reserva:</h3>
+            <label for="semana">Escolha o dia da semana:</label>
+            <input type="text" name="semana" placeholder="Digite">
+            <label for="horario">Escolha o horário:</label>
+            <input type="text" name="horario" placeholder="Digite entre os horários aberto">
+            <label for="pagamento">Infome a forma de pagamento:</label>
+            <input type="text" name="pagamento" placeholder="Digite">
+            <button type="button" name="button">Confirmar reserva</button>
+        </form>
   </body>
 </html>
