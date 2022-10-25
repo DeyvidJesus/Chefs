@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+:root {
+    --amarelo-500: #F2B705;
+    --marrom-500: #401212;
+    --vermelho-500: #E11B0A;
+    --verde-700: #025928;
+    --verde-500: #038C3E;
+    --bege-500: #F2E6D8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--marrom-500);
+  padding: 1rem 2rem;
+}
+
+nav {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+  text-decoration: none;
+}
+
+footer {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: var(--marrom-500);
+  padding: 1rem 3rem;
+  color: #FFF;
+  margin-top: 2rem;
+}
+
+footer > span {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1rem;
+  width: 450px;
+}
+
+footer > span:nth-child(2) {
+  width: 250px;
+}
+
+footer > span:nth-child(3) {
+  width: 400px;
+}
