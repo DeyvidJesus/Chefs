@@ -7,6 +7,7 @@
     --vermelho-500: #E11B0A;
     --verde-700: #025928;
     --verde-500: #038C3E;
+    --bege-500: #F2E6D8;
 }
 
 * {
@@ -52,7 +53,7 @@ main {
 }
 
 .banner {
-  width: 93vw;
+  width: 89.5vw;
   height: 140px;
   display: flex;
   justify-content: center;
@@ -74,15 +75,128 @@ main {
 }
 
 .pratos--destaque {
-  height: 600px;
+  height: 670px;
   width: 500px;
   display: flex;
-  margin-bottom: 2rem;
+  margin: 0 2rem 2rem;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   background: var(--marrom-500);
   border-radius: 1rem;
   color: #FFF;
-  padding: 1rem;
+  padding: 2rem;
+}
+
+.imagem--pratos {
+  width: 425px;
+}
+
+.preco--removido {
+  text-decoration: line-through;
+}
+
+.precos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.preco {
+    font-size: 32px;
+    margin-left: 1rem;
+}
+
+.pratos--titulo {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.pratos--descricao {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.cardapio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardapio--titulo {
+  border-top: 4px solid;
+  width: 89vw;
+  font-size: 32px;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 400;
+}
+
+.cardapio--container {
+  display: flex;
+  justify-content: space-between;
+  width: 86vw;
+  margin-top: 1rem;
+}
+
+.cardapio--items > a {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bege-500);
+  padding: 3rem 0;
+  justify-content: space-between;
+  border-radius: .5rem;
+}
+
+.cardapio--items > a:hover {
+  filter: brightness(.95);
+}
+
+.cardapio--items > a > h3{
+  margin-top: 2rem;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: 300;
+  background: var(--vermelho-500);
+  width: 300px;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  border-radius: .5rem;
+}
+
+.cardapio--items:nth-child(2) > a > h3 {
+  background: var(--verde-700);
+}
+
+.cardapio--items:nth-child(3) > a > h3 {
+  background: var(--verde-500);
+}
+
+footer {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: var(--marrom-500);
+  padding: 1rem 3rem;
+  color: #FFF;
+  margin-top: 2rem;
+}
+
+span {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+  padding: 0 1rem;
+}
+
+span:nth-child(2) {
+  width: 250px;
+}
+
+span:nth-child(3) {
+  width: 400px;
 }
