@@ -10,14 +10,6 @@
     --bege-500: #F2E6D8;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  font-family: 'Inter', sans-serif;
-}
-
 main {
   display: flex;
   flex-direction: column;

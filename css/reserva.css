@@ -10,43 +10,11 @@
     --branco: #FFFFFF;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  font-family: 'Inter', sans-serif;
-}
-
-header {
-  width: 100vw;
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--marrom-500);
-  padding: 1rem 2rem;
-}
-
-nav {
-  width: 180px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-a {
-  width: -webkit-fill-available;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #FFF;
-  text-decoration: none;
-}
 .volta {
   width: 40px;
   margin-left: 20px;
 }
+
 .reserva {
   font-size: 30px;
   margin-left: 60px;
