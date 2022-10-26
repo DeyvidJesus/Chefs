@@ -139,3 +139,9 @@ main {
 .cardapio--items:nth-child(3) > a > h3 {
   background: var(--verde-500);
 }
+
+@media (max-width: 1440px) {
+ .cardapio-items > a {
+   width: 360px;
+  }
+}
