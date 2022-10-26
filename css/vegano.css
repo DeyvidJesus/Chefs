@@ -1,0 +1,88 @@
+:root {
+    --amarelo-500: #F2B705;
+    --marrom-500: #401212;
+    --vermelho-500: #E11B0A;
+    --verde-700: #025928;
+    --verde-500: #038C3E;
+    --bege-500: #F2E6D8;
+    --branco: #FFFFFF;
+}
+
+main {
+  background: url("../imagens/vegano_banner.svg") fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 700px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icone--volta {
+  position: absolute;
+  top: 90px;
+  left: 15px;
+  width: 40px;
+}
+
+main > h1 {
+  color: var(--branco);
+  padding: 0 0 5rem 7rem;
+  font-size: 52px;
+}
+
+.titulo--secao {
+  padding: 3rem 0 1rem 3rem;
+  font-weight: 400;
+}
+
+.pratos--container {
+  width: 99vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.pratos--destaque {
+  height: 670px;
+  width: 500px;
+  display: flex;
+  margin: 0 2rem 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: var(--marrom-500);
+  border-radius: 1rem;
+  color: #FFF;
+  padding: 2rem;
+}
+
+.imagem--pratos {
+  width: 425px;
+}
+
+.preco--removido {
+  text-decoration: line-through;
+}
+
+.precos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.preco {
+    font-size: 32px;
+    margin-left: 1rem;
+}
+
+.pratos--titulo {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.pratos--descricao {
+  font-weight: 300;
+  font-size: 18px;
+}
