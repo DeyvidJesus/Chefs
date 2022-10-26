@@ -87,7 +87,7 @@ button:hover {
   cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
  .dados-pessoais {
    padding: 0;
   }
