@@ -142,6 +142,6 @@ main {
 
 @media (max-width: 1440px) {
  .cardapio--items > a {
-   width: 360px;
+   width: 350px;
    }
 }
